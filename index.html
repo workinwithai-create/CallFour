@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CallFour — call and response desk</title>
+  <meta name="description" content="Four live bars that answer the last sung line. The hook stops being a monologue." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>CallFour</h1>
+  <p class="lead">Call-and-response desk. Suno and loop DAWs write a hook that talks to nobody. Session players write four live bars after the last sung line — trumpet answers, nylon echoes, kit talks back — then the next section has a door. Live piano, upright, nylon, kit, trumpet, violin. Not a last-line tag. Not a pre-hook lift. Not a post-chorus vamp.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Answer</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · call 1–4 · answer 5–8</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Call only</button>
+  <button id="playB">B · Full form</button>
+  <button id="play8">8 · Answer</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
